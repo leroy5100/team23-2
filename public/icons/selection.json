@@ -1,0 +1,159 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M27.749 999.566l-22-24.436 412.425-457.343-413.074-458.144 44.714-49.584 457.143 506.931-457.143 506.931-22-24.436z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 512,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "chevron_right"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 12,
+        "id": 1,
+        "name": "chevron_right",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M233.646 768l-228.571-256 457.143-512 44.714 50.080-413.074 462.643 412.425 461.916-44.071 49.36z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 512,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "chevron_left"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 13,
+        "id": 0,
+        "name": "chevron_left",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M145.216 47.424l837.024 837.024c17.376 17.376 17.376 45.568 0 62.976l-37.024 37.024c-17.376 17.376-45.568 17.376-62.976 0l-837.024-837.024c-17.376-17.376-17.376-45.568 0-62.976l37.024-37.024c17.376-17.376 45.568-17.376 62.976 0z",
+          "M879.424 31.456l-837.024 837.024c-17.376 17.376-17.376 45.568 0 62.976l37.024 37.024c17.376 17.376 45.568 17.376 62.976 0l837.024-837.024c17.376-17.376 17.376-45.568 0-62.976l-37.024-37.024c-17.376-17.376-45.568-17.376-62.976 0z"
+        ],
+        "attrs": [
+          {},
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "close"
+        ]
+      },
+      "attrs": [
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 4,
+        "id": 7,
+        "name": "close",
+        "prevSize": 32
+      },
+      "setIdx": 1,
+      "setId": 2,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M70.816 0h1512.576c31.424 0 56.896 25.472 56.896 56.896v66.912c0 31.424-25.472 56.896-56.896 56.896h-1512.576c-31.424 0-56.896-25.472-56.896-56.896v-66.912c0-31.424 25.472-56.896 56.896-56.896z",
+          "M70.816 421.664h1512.576c31.424 0 56.896 25.472 56.896 56.896v66.912c0 31.424-25.472 56.896-56.896 56.896h-1512.576c-31.424 0-56.896-25.472-56.896-56.896v-66.912c0-31.424 25.472-56.896 56.896-56.896z",
+          "M70.816 843.328h1512.576c31.424 0 56.896 25.472 56.896 56.896v66.912c0 31.424-25.472 56.896-56.896 56.896h-1512.576c-31.424 0-56.896-25.472-56.896-56.896v-66.912c0-31.424 25.472-56.896 56.896-56.896z"
+        ],
+        "attrs": [
+          {},
+          {},
+          {}
+        ],
+        "width": 1664,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "hamburger"
+        ]
+      },
+      "attrs": [
+        {},
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 5,
+        "id": 6,
+        "name": "hamburger",
+        "prevSize": 32
+      },
+      "setIdx": 1,
+      "setId": 2,
+      "iconIdx": 3
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 100,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

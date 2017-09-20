@@ -1,0 +1,8 @@
+#All files
+*.DS_Store
+*.sh
+.DS_Store
+errors.log
+
+#maps
+/node_modules

@@ -1,0 +1,59 @@
+/*
+  1. Algemene style regels zet je hier neer
+*/
+img{max-width:100%;}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Flex helpers */
+.flex{ display: flex; }
+.flex-1{ flex:1; }
+
+.flex-ajbottom{
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: flex-start;
+}
+.flex-ajtop{
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+.flex-center{
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.flex-justify{
+  justify-content: space-between;
+}
+
+.flex-justify-around{
+  justify-content: space-around;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+/* Links */
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}

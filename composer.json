@@ -1,0 +1,15 @@
+{
+    "name": "keytoe/storetelling",
+    "description": "Storetelling",
+    "authors": [
+        {
+            "name": "Leroy van Spronsen",
+            "email": "leroy@keytoe.nl"
+        }
+    ],
+    "require": {
+    	"mailgun/mailgun-php": "^2.3",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message": "^1.5"
+    }
+}

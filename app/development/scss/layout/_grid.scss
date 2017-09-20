@@ -1,0 +1,21 @@
+.wrapper-sm{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; // fallback
+  width: calc(100% - 100px);
+  max-width: 1024px;
+}
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; // fallback
+  width: calc(100% - 100px);
+  max-width: 1280px;
+}
+.wrapper-lg{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; // fallback
+  width: calc(100% - 100px);
+  max-width: 1440px;
+}

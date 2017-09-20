@@ -1,0 +1,35 @@
+{
+  "name": "Team23-2",
+  "version": "1.0.0",
+  "description": "Team23 frontend packages",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leroy van Spronsen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "latest",
+    "babelify": "latest",
+    "bigpicture": "^1.2.1",
+    "browser-sync": "latest",
+    "browserify": "latest",
+    "connect-history-api-fallback": "latest",
+    "eslint-config-rallycoding": "^3.1.0",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-notify": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "include-media": "^1.4.8",
+    "vinyl-buffer": "latest",
+    "vinyl-source-stream": "latest",
+    "watchify": "latest"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
