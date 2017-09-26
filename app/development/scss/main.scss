@@ -14,6 +14,7 @@
 @import './layout/_grid.scss';
 
 /* Components */
-//@import './components/_navigation.scss';
-@import './components/_page-hero.scss';
-@import './components/_modal.scss';
+@import './components/_page-head.scss';
+@import './components/_page-introduction.scss';
+@import './components/_page-highlight.scss';
+@import './components/_page-footer.scss';

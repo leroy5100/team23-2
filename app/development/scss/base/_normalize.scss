@@ -18,6 +18,8 @@ html {
 
 body {
   margin: 0;
+  background-color: $black;
+  color: $white;
 }
 
 /* HTML5 display definitions
@@ -88,6 +90,7 @@ template {
 
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 /**
@@ -133,10 +136,13 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+h1,h2,h3,h4,h5{
+    margin: 0;
 }
+h1{font-size: 2em;}
+h2{font-size: 1.5em;}
+h3{font-size: 1.25em;}
+h4{font-size: 1.1em;}
 
 /**
  * Address styling not present in IE 8/9.

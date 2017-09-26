@@ -30,7 +30,7 @@ gulp.task('styles', function() {
 
 gulp.task('browser-sync', function() {
     browserSync({
-      proxy: 'localhost/team23-1'
+      proxy: 'localhost/team23-2'
     });
 });
 
