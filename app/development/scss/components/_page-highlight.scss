@@ -3,4 +3,28 @@
     padding: 20px;
     background-color: $white;
     color: $black;
+    text-align: center;
+    .highlight-container{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            position: relative;
+            display: block;
+            font-size: em(64, 16);
+            font-weight: bold;
+
+            .icon.icon-beermug{
+                position: absolute;
+                left: calc(50% - 100px);
+                top: -75px;
+                height: 200px;
+                width: 200px;
+                color: $dark-wood-brown;
+                font-size: em(16,16);
+                opacity: 0.5;
+            }
+        }
+    }
 }

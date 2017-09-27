@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-Beer-Mug {
+  width: 0.8935546875em;
+}
+
 .icon-chevron_right {
   width: 0.5em;
 }

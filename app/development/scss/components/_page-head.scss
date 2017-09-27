@@ -1,7 +1,37 @@
 .page-head{
-    padding:50px;
-    padding-bottom: 5px;
-    
+    min-height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    -webkit-box-shadow: 0px 14px 29px 1px $coal-transparent;
+    -moz-box-shadow: 0px 14px 29px 1px $coal-transparent;
+    box-shadow: 0px 14px 29px 1px $coal-transparent;
+    transition: .2s ease-in-out all;
+    align-items: center;
+
+    &.is-fixed{
+        	position: fixed;
+            width: 100%;
+            height: 50px;
+            padding-bottom: 0;
+        	top: 0;
+            left: 0;
+        	border-radius: 0;
+            z-index: 10;
+            box-shadow: none;
+          &:before,
+          &:after{
+            left: calc(-100% + 15px);
+            width: calc(100% - 10px);
+          }
+          &:after{
+            left: auto;
+            right: calc(-100% + 15px);
+          }
+
+    }
     h1{
         position: relative;
         text-align: center;
@@ -15,34 +45,48 @@
             left: 0;
             bottom: 0px;
             opacity: 0.5;
-            border-bottom: 4px solid $blue;
+            border-bottom: 4px solid $white;
             border-radius: 100%;
         }
-    }
-    h4{
-        text-align: center;
-        padding-bottom: 20px;
-        font-weight: normal;
     }
     .nav-container{
         .nav-list{
             margin: 0;
             padding: 0;
             list-style: none;
+            align-items: center;
 
             .nav-list-item{
                 display: block;
                 text-decoration: none;
+                text-align: center;
+
                 a{
+                    display: block;
                     margin-left: 10px;
                     margin-right: 10px;
                     padding: 5px;
                     padding-left: 10px;
                     padding-right: 10px;
                     transition: .2s ease-in-out all;
+                    min-width: 100px;
+                    border-radius: 4px;
+                    text-transform: uppercase;
+                    font-size: em(14, 16);
+                    font-weight: bold;
+
 
                     &:hover{
-                        background-color: $blue;
+                        background-color: $white-transparent;
+                        color: $black;
+                    }
+                    @include media("<=1024px")
+                    {
+                        min-width: auto;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        padding: 5px;
+                        font-size: em(12, 16);
                     }
                 }
             }

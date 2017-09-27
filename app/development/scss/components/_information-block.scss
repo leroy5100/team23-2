@@ -1,0 +1,35 @@
+.information-block{
+    height: 400px;
+    margin-bottom: 50px;
+
+    .information-block-text{
+        width: 50%;
+        background-color: $white;
+        color: $black;
+        padding: 20px;
+
+        h2{
+            color: $coal;
+        }
+        h4{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p{
+
+            margin-top: 20px;
+        }
+    }
+    .information-block-image-container{
+        height: 400px;
+        width: 50%;
+        background-color: $black;
+
+        .information-block-image{
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
